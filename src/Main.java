@@ -53,6 +53,15 @@ public class Main {
         byte egg = 70;
         int result9 = (banana*5)+(milk*2)+(iceCream*2)+(egg*4);
         System.out.println(" (banana*5)+(milk*2)+(iceCream*2)+(egg*4) "+ result9);
+        short loseWeight1 = 250;
+        short loseWeight2 = 500;
+        short totalLoseWeight = 7000;
+        int result10 = totalLoseWeight/loseWeight1;
+        System.out.println(" totalLoseWeight/loseWeight1 " + result10 );
+        int result11 = totalLoseWeight/loseWeight2;
+        System.out.println(" totalLoseWeight/loseWeight2 " + result11 );
+        int result12 = (result10+result11)/2;
+        System.out.println(" (result10+result11)/2 " + result12 );
 
 
 
