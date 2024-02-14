@@ -19,6 +19,10 @@ public class Main {
         short f1 = -159;
         short g1 = 27897;
         byte i1 = 67;
-
+        int lP = 23;
+        int aS = 27;
+        int eA = 30;
+        int result1 = 480/(lP+aS+eA);
+        System.out.println("На каждого ученика расчитано " + "480%(lP+aS+eA) " + result1 + " листов бумаги");
     }
 }
