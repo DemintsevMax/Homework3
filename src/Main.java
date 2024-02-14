@@ -40,7 +40,13 @@ public class Main {
         int t7 = 31;
         int result5 = t7 * result3;
         System.out.println(" За " + t7 + " машина произвела " + " t7 * result3 " + result5 + " штук бутылок");
-
+        int totalBottle = 120;
+        int whiteBottle = 2;
+        int brownBottle = 4;
+        int result6 = totalBottle/(whiteBottle+brownBottle);
+        int result7 = result6 * whiteBottle;
+        int result8 = result6 * brownBottle;
+        System.out.println(" В школе, где " + "totalBottle/(whiteBottle+brownBottle) " + result6 + " классов, нужно " + " result6 * whiteBottle " + result7 + " банок белой краски и " + " result6 * brownBottle " + result8 + " банок коричневой краски.");
 
 
 
