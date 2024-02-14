@@ -62,6 +62,18 @@ public class Main {
         System.out.println(" totalLoseWeight/loseWeight2 " + result11 );
         int result12 = (result10+result11)/2;
         System.out.println(" (result10+result11)/2 " + result12 );
+        int mashaSalary = 67760;
+        double result13 = (mashaSalary*0.1)+mashaSalary;
+        double result14 = result13-mashaSalary;
+        System.out.println(" Маша теперь получает " + "(mashaSalary*0.1)+mashaSalary " + result13 + " Годовой доход вырос на " + " result13-mashaSalary " + result14 + " рублей" );
+        int denisSalary = 83690;
+        double result15 = (denisSalary*0.1)+denisSalary;
+        double result16 = result15-denisSalary;
+        System.out.println(" Денис теперь получает " + "(denisSalary*0.1)+denisSalary " + result15 + " Годовой доход вырос на " + " result13-denisSalary " + result16 + " рублей" );
+        int kristinaSalary = 76230;
+        double result17 = (kristinaSalary*0.1)+kristinaSalary;
+        double result18 = result17-kristinaSalary;
+        System.out.println(" Кристина теперь получает " + "(kristinaSalary*0.1)+kristinaSalary " + result17 + " Годовой доход вырос на " + " result17-kristinaSalary " + result18 + " рублей" );
 
 
 
