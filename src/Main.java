@@ -34,5 +34,15 @@ public class Main {
         int t5 = 1;
         int result3 = ((t2 * t3) / time) * bottle;
         System.out.println(" За " + t5 + " машина произвела " + " ((t2 * t3) / time) * bottle " + result3 + " штук бутылок");
+        int t6 = 3;
+        int result4 = t6 * result3;
+        System.out.println(" За " + t6 + " машина произвела " + " t6 * result3 " + result4 + " штук бутылок");
+        int t7 = 31;
+        int result5 = t7 * result3;
+        System.out.println(" За " + t7 + " машина произвела " + " t7 * result3 " + result5 + " штук бутылок");
+
+
+
+
     }
 }
