@@ -12,6 +12,13 @@ public class Main {
         System.out.println("Значение переменной с типом float "+" ровно "+ e);
         double f = 2.545434489964169;
         System.out.println("Значение переменной с типом double "+" ровно "+ f);
+        float a1 = 27.12f;
+        float b1 = 987678965549f;
+        float c1 = 2.786f;
+        short e1 = 569;
+        short f1 = -159;
+        short g1 = 27897;
+        byte i1 = 67;
 
     }
 }
